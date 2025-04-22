@@ -42,7 +42,7 @@ upgradeButton.addEventListener("click", () => {
   }
 });
 
-
+document.body.style.zoom = "1";
 
 
 
