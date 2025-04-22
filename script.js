@@ -29,7 +29,7 @@ upgradeButton.addEventListener("click", () => {
   if (count >= upgradeCost) {
     count -= upgradeCost;
     multiplier += 1;
-    upgradeCost *= 3;
+    upgradeCost *= 2;
 
     scoreDisplay.textContent = count;
     upgradeButton.textContent = `Улучшить клики (Цена: ${upgradeCost})`;
