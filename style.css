@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.col-12{
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  display: flex;
+}
+
+.col-2{
+  background-color: rgb(0, 109, 5);
+  height: 100%;
+}
+
+.col-2 h1{ 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  margin: 10rem 0 0;
+  user-select: none;
+}
+
+.col-2 h1:hover {
+  transform: rotate(10deg);
+  text-decoration: none;
+}
+
+.col-2 h1:nth-child(2):hover {
+  transform: rotate(-10deg);
+  text-decoration: none;
+}
+
+.col-2 h1:nth-child(4):hover {
+  transform: rotate(-10deg);
+  text-decoration: none;
+}
+
+.col-8{
+  background-color: rgb(0, 255, 179);
+  height: 100%;
+}
+
+.col{
+  height: 15%;
+}
+
+.col:nth-child(2){
+  height: 70%;
+}
+
+.col:nth-child(2) div{
+  background-color: rgb(0, 255, 179);
+  height: 30%;
+}
+
+.col:nth-child(2) div:nth-child(2){
+  height: 70%;
+}
+
+.p-1{
+  color: green;
+  font-size: 8rem;
+}
+
+.p-2{
+  color: green;
+  font-size: 5rem;
+}
+
+.p-3{
+  color: green;
+  font-size: 8rem;
+}
+
+.img-1{
+  height: 100%;
+  cursor: pointer;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00fa68;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 2rem;
+  width: 40rem;
+  box-sizing: border-box;
+  transition: 1s;
+}
+
+.button:hover {
+  background-color: #4169E1;
+}
