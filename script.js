@@ -1,5 +1,5 @@
 let count = parseInt(localStorage.getItem("clickCount")) || -100000;
-let multiplier = parseInt(localStorage.getItem("clickMultiplier")) || 1;
+let multiplier = parseInt(localStorage.getItem("clickMultiplier")) || -10001;
 let upgradeCost = parseInt(localStorage.getItem("upgradeCost")) || 100;
 
 
