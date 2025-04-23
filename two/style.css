@@ -31,8 +31,9 @@ body {
 }
 
 .p-1{
-    color: rgb(0, 0, 0);
-    transition: text-decoration-color 0.3s, transform 0.5s ease;
+    color: rgb(255, 255, 255);
+    transition: transform 0.5s ease;
+    text-decoration: underline;
     font-size: 6rem;
     cursor: pointer;
     user-select: none;
@@ -87,7 +88,45 @@ body {
 
 .img-2{
     height: 50%;
-    width: 25%;
+    width: 15%;
     margin: 1rem;
     filter: brightness(0%);
+}
+
+.img-1{
+    height: 100%;
+    width: 15%;
+}
+
+.img-3{
+    height: 50%;
+    width: 15%;
+    margin: 1rem;
+    filter: brightness(0%);
+}
+
+.img-4{
+    height: 50%;
+    width: 15%;
+    margin: 1rem;
+    filter: brightness(0%);
+}
+
+
+.img-5{
+    height: 100%;
+    width: 15%;
+    display: none
+}
+
+.img-6{
+    height: 100%;
+    width: 15%;
+    display: none;
+}
+
+.img-7{
+    height: 100%;
+    width: 15%;
+    display: none;
 }
